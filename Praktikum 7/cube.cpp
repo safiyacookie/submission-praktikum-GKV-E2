@@ -95,7 +95,7 @@ int main(int argc, char** argv) {
     glutInit(&argc, argv);
     glutInitDisplayMode(GLUT_DOUBLE | GLUT_RGB | GLUT_DEPTH);
     glutInitWindowSize(500, 500);
-    glutCreateWindow("Rotating Cube with Texture");
+    glutCreateWindow("kubus bunga");
     init();
     glutDisplayFunc(display);
     glutTimerFunc(16, update, 0);
